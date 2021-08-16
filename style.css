@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.color {
+  height: 4vh;
+  width: 4vw;
+  display: inline-block;
+  border: black solid 1px;
+}
+
+#color-pallette {
+  border: solid;
+}
+
+#pixel-board {
+  display: table-row;
+}
+
+.pixel-board-line {
+  display: table-row;
+}
+
+.pixel {
+  display: table-cell;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: black solid 1px;
+}
